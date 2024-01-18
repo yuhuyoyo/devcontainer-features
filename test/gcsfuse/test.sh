@@ -24,7 +24,7 @@
 # This test can be run with the following command:
 #
 #    devcontainer features test    \ 
-#               --features color   \
+#               --features gcsfuse   \
 #               --remote-user root \
 #               --skip-scenarios   \
 #               --base-image mcr.microsoft.com/devcontainers/base:ubuntu \
