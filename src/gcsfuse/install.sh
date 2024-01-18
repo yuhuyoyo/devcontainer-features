@@ -4,7 +4,7 @@ set -e
 echo "Installing GCS FUSE..."
 
 apt-get update
-apt-get install -y lsb-core
+apt-get install -y lsb-base lsb-release
 apt-get install -y fuse
 
 export GCSFUSE_REPO=gcsfuse-`lsb_release -c -s`
